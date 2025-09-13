@@ -11,6 +11,11 @@ tools = [
         name="create directory",
         func=Toolchain.create_directory,
         description="Creates a directory. Input should be a string with the directory name."
+    ),
+    Tool(
+        name="delete directory",
+        func=Toolchain.delete_directory,
+        description="Deletes a directory. Input should be a string with the directory name."
     )
 ]
 
